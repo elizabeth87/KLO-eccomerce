@@ -11,10 +11,12 @@ import Contact from './components/Contact';
 import Cart from './components/Cart';
 import ProductList from './components/ProductList';
 import Default from './components/Default';
+import Details from './components/Details';
+import Modal from './components/Modal'
 
 function App() {
   return (
-  <Router>
+  <React.Fragment>
      <div className="main">
      <Navbar />
   <Switch> 
@@ -24,9 +26,11 @@ function App() {
     <Route exact path="/cart" component={Cart} />
     <Route exact path="/default" component={Default} />
     <Route exact path="/productList" component={ProductList} />
+    <Route exact path="/Details" component={Details} />
   </Switch> 
     </div>
-    </Router>
+    <Modal />
+    </React.Fragment>
   );
 }
 

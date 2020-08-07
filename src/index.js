@@ -5,6 +5,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import { ProductProvider } from '../src/context';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import './App.css';
 
 ReactDOM.render(
  <ProductProvider>

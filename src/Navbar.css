@@ -12,8 +12,8 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 5px solid rgb(28, 165, 189);
-  color: #333;
+  border: 5px solid orange;
+  color: rgb(9, 61, 18);
   font-size: 24px;
   height: 63px;
   width: 64px;
@@ -40,7 +40,9 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 50px;
+}
+.nav-menu {
+  margin-top: 30px;
 }
 
 ul {
@@ -61,7 +63,6 @@ ul li a {
   padding: 13px;
   text-decoration: none;
   transition: all 0.5s ease;
-  font-size: 18px;
 }
 
 ul li a:hover {
@@ -79,7 +80,7 @@ ul li a:hover {
     align-items: center;
     padding: 0 27px;
   }
-  .btn {
+  .btn-bar {
     display: none;
   }
   ul {
@@ -96,7 +97,7 @@ ul li a:hover {
     border: none;
   }
   ul li a:hover {
-    color: yellow;
+    color: orange;
     font-weight: bold;
     list-style: none;
     text-decoration: none;
