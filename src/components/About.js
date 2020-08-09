@@ -9,7 +9,7 @@ class About extends Component {
                     <h2>Let's stay connected!</h2>
                 <div className="">
                 <a href="https://instagram.com/adri_bautista_s?igshid=hwmgagx62kzf" className="mr-2 instagram"><i class="fab fa-instagram"></i></a>
-                <a href="https://instagram.com/adri_bautista_s?igshid=hwmgagx62kzf" className="mr-2 youtube"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.youtube.com/channel/UCLUh0rrErhVkXkXL_1wibeQ" className="mr-2 youtube"><i class="fab fa-youtube"></i></a>
                 </div>
                 <div className="contact-text">
                     <p>Order will be ready 24 hours after order has been placed. Pick up is in Modesto.</p><br />

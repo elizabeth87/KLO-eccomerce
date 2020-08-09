@@ -37,7 +37,7 @@ class Navbar extends Component {
              </div> 
              </div>
              <div className="nav-menu">
-            <ul className={this.state.isOpen ? 'showNav' : 'undefined'} nav-menu>
+            <ul className={this.state.isOpen ? 'showNav' : 'undefined'} nav-menu="true">
               <li><Link to="/" onClick={this.closeNavbar}>Home</Link></li>
               <li><Link to="/productList" onClick={this.closeNavbar}>Pastries</Link></li>
               <li><Link to="/about" onClick={this.closeNavbar}>Contact</Link></li>
