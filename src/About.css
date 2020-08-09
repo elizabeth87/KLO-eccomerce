@@ -5,7 +5,7 @@
 }
 
 nav {
-  font-size: 30px;
+  font-size: 28px;
 }
 .new-div {
   border: 2px solid orange;
@@ -15,23 +15,42 @@ nav {
   justify-content: space-around;
   display: flex;
   margin-top: 80px;
+  margin-left: 150px;
 }
 .img {
   background-image: url("img/baker.jpeg");
-  width: 550px;
-  height: 650px;
+  width: 500px;
+  height: 600px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 10%;
+  margin-right: 150px;
 }
 
 .inner-container {
-  width: 120px;
+  width: 420px;
 }
-
+.instagram {
+  width: 300px;
+}
 .cart-icon {
   cursor: pointer;
   font-size: 1.2rem;
   color: pink;
+}
+.fab {
+  font-size: 38px;
+  color: purple;
+  margin-top: 5px;
+}
+.fa-youtube {
+  font-size: 38px;
+  color: red;
+  margin-top: 5px;
+}
+.contact-text {
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 10px;
 }

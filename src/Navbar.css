@@ -102,4 +102,9 @@ ul li a:hover {
     list-style: none;
     text-decoration: none;
   }
+  .sub-logo {
+    margin-top: 35px;
+    font-size: 17px;
+    font-style: italic;
+  }
 }
