@@ -12,6 +12,7 @@ import ProductList from './components/ProductList';
 import Default from './components/Default';
 import Details from './components/Details';
 import Modal from './components/Modal'
+import ThankYou from './components/ThankYou'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
     <Route exact path="/default" component={Default} />
     <Route exact path="/productList" component={ProductList} />
     <Route exact path="/Details" component={Details} />
+    <Route exact path="/ThankYou" component={ThankYou} />
   </Switch> 
     </div>
     <Modal />
